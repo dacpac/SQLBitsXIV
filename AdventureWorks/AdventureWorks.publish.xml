@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseName>AdventureWorks2014</TargetDatabaseName>
+    <DeployScriptFileName>AdventureWorks.sql</DeployScriptFileName>
+    <TargetConnectionString>Data Source=SQLLIMITED\SQLDOTLIMITED;Integrated Security=True;Pooling=False</TargetConnectionString>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
+  </PropertyGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="ModelUriChecksum">
+      <Value>A91907C9961B4029A9A16034CEC458A3F9E5DAFC64874C0D8FECF6A1D71EEFF3</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="PostDeployUriChecksum">
+      <Value>7EDBE63FC88F48E4ABCC51601D30B37CD31E148A22D444F9AF785FA4E8012DCE</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="PreDeployUriChecksum">
+      <Value>0F97FEBD820E464287DA99E120ABA93B79880C249A854BCFBD6E517833D8F6C8</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+</Project>

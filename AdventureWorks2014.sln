@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorks", "AdventureWorks\AdventureWorks.sqlproj", "{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorksModel", "AdventureWorksModel\AdventureWorksModel.sqlproj", "{B421C5A6-9BDE-4437-8101-D78B72078E9B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorksModelPostDeploy", "AdventureWorksModelPostDeploy\AdventureWorksModelPostDeploy.sqlproj", "{861158DE-3231-43ED-8F8D-B4A8B30B09A1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorksModelPreDeployPostDeploy", "AdventureWorksModelPreDeployPostDeploy\AdventureWorksModelPreDeployPostDeploy.sqlproj", "{2EA07389-280D-4D8D-9382-2CD101759743}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorksModelPreDeploy", "AdventureWorksModelPreDeploy\AdventureWorksModelPreDeploy.sqlproj", "{1501A928-F65E-455F-98EB-AA8FAAC970B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EA5600A0-96D9-45FC-A6E1-2BD2B0AD3B73}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B421C5A6-9BDE-4437-8101-D78B72078E9B}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{861158DE-3231-43ED-8F8D-B4A8B30B09A1}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2EA07389-280D-4D8D-9382-2CD101759743}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1501A928-F65E-455F-98EB-AA8FAAC970B6}.Release|Any CPU.Deploy.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
